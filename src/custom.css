@@ -1,0 +1,69 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+body {
+  font-family: Inter;
+}
+
+.astro-vrdttmbt {
+  background: #1a1a1a;
+}
+
+.sidebar-content {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+:where(.astro-3ii7xxms)[aria-current="page"],
+:where(.astro-3ii7xxms)[aria-current="page"]:hover,
+:where(.astro-3ii7xxms)[aria-current="page"]:focus {
+  background-color: transparent;
+  color: #00bbff;
+}
+
+@media (min-width: 50rem) {
+  a:where(.astro-3ii7xxms) {
+    font-size: 0.9rem;
+  }
+}
+
+a:where(.astro-3ii7xxms) {
+  color: #ffffffb3;
+}
+
+ul:where(.astro-3ii7xxms) {
+  margin-bottom: 20px;
+}
+
+ul:where(.astro-3ii7xxms) ul:where(.astro-3ii7xxms) li:where(.astro-3ii7xxms) {
+  border-inline-start: none;
+  padding-inline-start: 0;
+  margin-inline-start: 0;
+}
+
+a:where(.astro-u2l5gyhi) {
+  gap: 0.5rem;
+  width: fit-content;
+  border: none;
+  border-radius: 0;
+  padding: 0;
+  box-shadow: none;
+  font-size: 0rem;
+}
+
+.link-title:where(.astro-u2l5gyhi) {
+  font-size: 1rem;
+}
+
+.pagination-links:where(.astro-u2l5gyhi) {
+  display: flex;
+}
+
+:where(.astro-3ii7xxms)[open]
+  > summary:where(.astro-3ii7xxms)
+  .caret:where(.astro-3ii7xxms) {
+  display: none;
+}
+
+h1:where(.astro-j6tvhyss) {
+  font-size: 2rem;
+}
